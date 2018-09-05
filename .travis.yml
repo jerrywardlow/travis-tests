@@ -6,3 +6,8 @@ compiler: gcc
 
 notifications:
   email: false
+
+branches:
+  except:
+    - master
+    - staging
